@@ -1,6 +1,8 @@
 export class Note {
 
-    constructor(public title: string,
-                public content: string,
-                public tags: string[]){}
+  constructor(public id: number,
+              public title: string,
+              public content: string,
+              public tags: string[]) {
+  }
 }
