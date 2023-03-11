@@ -1,0 +1,8 @@
+<div class="note-card" (click)="selectNote()">
+  <div class="card-actions">
+    <button (click)="setEditTitle();$event.stopPropagation()">edit</button>
+    <button>copy</button>
+  </div>
+  <input [ngClass]="isReadOnly?'note-card':'note-card-edit'" value="{{note.title}}" [readOnly]="isReadOnly"/>
+  <app-tag-list [tags]="note.tags"></app-tag-list>
+</div>

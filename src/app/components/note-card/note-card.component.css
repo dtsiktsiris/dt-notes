@@ -1,0 +1,26 @@
+.note-card {
+    background-color: bisque;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-style: none;
+}
+
+.note-card-edit {
+  background-color: beige;
+  border-radius: 15px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-style: dotted;
+}
+
+input {
+    cursor: default;
+    outline: none;
+    font-size: medium;
+}
+
+.card-actions{
+    display: flex;
+    justify-content: flex-end;
+}
